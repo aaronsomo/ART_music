@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		646A2F3F23E2577100D41BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A2F3E23E2577100D41BDD /* AppDelegate.swift */; };
+		646A2F4123E2577100D41BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A2F4023E2577100D41BDD /* SceneDelegate.swift */; };
+		646A2F4323E2577100D41BDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A2F4223E2577100D41BDD /* ContentView.swift */; };
+		646A2F4523E2577500D41BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646A2F4423E2577500D41BDD /* Assets.xcassets */; };
+		646A2F4823E2577500D41BDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646A2F4723E2577500D41BDD /* Preview Assets.xcassets */; };
+		646A2F4B23E2577500D41BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646A2F4923E2577500D41BDD /* LaunchScreen.storyboard */; };
+		646A2F5623E2577500D41BDD /* PixieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A2F5523E2577500D41BDD /* PixieTests.swift */; };
+		646A2F6123E2577500D41BDD /* PixieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A2F6023E2577500D41BDD /* PixieUITests.swift */; };
+		646A2F6F23E2590800D41BDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 646A2F6E23E2590800D41BDD /* GoogleService-Info.plist */; };
+		72263A446704698C0D5A8E36 /* Pods_Pixie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EE7EF50AF49302B5207B00 /* Pods_Pixie.framework */; };
+		90A396E1CCADE386D53C6079 /* Pods_PixieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F029B1FDAB58C9C5393D7C77 /* Pods_PixieTests.framework */; };
+		F679B02BA47019DD0D04E955 /* Pods_Pixie_PixieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAB1D870D9C79B3E12949C9 /* Pods_Pixie_PixieUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		646A2F5223E2577500D41BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 646A2F3323E2577000D41BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 646A2F3A23E2577000D41BDD;
+			remoteInfo = Pixie;
+		};
+		646A2F5D23E2577500D41BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 646A2F3323E2577000D41BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 646A2F3A23E2577000D41BDD;
+			remoteInfo = Pixie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FAB1D870D9C79B3E12949C9 /* Pods_Pixie_PixieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixie_PixieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F78099403D381CF06C5344 /* Pods-Pixie-PixieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixie-PixieUITests.release.xcconfig"; path = "Target Support Files/Pods-Pixie-PixieUITests/Pods-Pixie-PixieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		646A2F3B23E2577100D41BDD /* Pixie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		646A2F3E23E2577100D41BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		646A2F4023E2577100D41BDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		646A2F4223E2577100D41BDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		646A2F4423E2577500D41BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		646A2F4723E2577500D41BDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		646A2F4A23E2577500D41BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		646A2F4C23E2577500D41BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646A2F5123E2577500D41BDD /* PixieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646A2F5523E2577500D41BDD /* PixieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixieTests.swift; sourceTree = "<group>"; };
+		646A2F5723E2577500D41BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646A2F5C23E2577500D41BDD /* PixieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646A2F6023E2577500D41BDD /* PixieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixieUITests.swift; sourceTree = "<group>"; };
+		646A2F6223E2577500D41BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646A2F6E23E2590800D41BDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		947BDA156406391075C1AA37 /* Pods-PixieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixieTests.debug.xcconfig"; path = "Target Support Files/Pods-PixieTests/Pods-PixieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6EE7EF50AF49302B5207B00 /* Pods_Pixie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA515D6048F0045E8478EA0F /* Pods-PixieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixieTests.release.xcconfig"; path = "Target Support Files/Pods-PixieTests/Pods-PixieTests.release.xcconfig"; sourceTree = "<group>"; };
+		B77A7C6611F1F2EC62048007 /* Pods-Pixie-PixieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixie-PixieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pixie-PixieUITests/Pods-Pixie-PixieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F6A01A9C81A3C4A55C6C9B /* Pods-Pixie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixie.debug.xcconfig"; path = "Target Support Files/Pods-Pixie/Pods-Pixie.debug.xcconfig"; sourceTree = "<group>"; };
+		C7E43AB2EFF87E244D566123 /* Pods-Pixie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixie.release.xcconfig"; path = "Target Support Files/Pods-Pixie/Pods-Pixie.release.xcconfig"; sourceTree = "<group>"; };
+		F029B1FDAB58C9C5393D7C77 /* Pods_PixieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646A2F3823E2577000D41BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72263A446704698C0D5A8E36 /* Pods_Pixie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A2F4E23E2577500D41BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A396E1CCADE386D53C6079 /* Pods_PixieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A2F5923E2577500D41BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F679B02BA47019DD0D04E955 /* Pods_Pixie_PixieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF4DF688CDDBE1D5AEE4B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EE7EF50AF49302B5207B00 /* Pods_Pixie.framework */,
+				2FAB1D870D9C79B3E12949C9 /* Pods_Pixie_PixieUITests.framework */,
+				F029B1FDAB58C9C5393D7C77 /* Pods_PixieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		646A2F3223E2577000D41BDD = {
+			isa = PBXGroup;
+			children = (
+				646A2F3D23E2577100D41BDD /* Pixie */,
+				646A2F5423E2577500D41BDD /* PixieTests */,
+				646A2F5F23E2577500D41BDD /* PixieUITests */,
+				646A2F3C23E2577100D41BDD /* Products */,
+				E6D6C0A30A8F293F3D89AFEA /* Pods */,
+				3BF4DF688CDDBE1D5AEE4B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		646A2F3C23E2577100D41BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				646A2F3B23E2577100D41BDD /* Pixie.app */,
+				646A2F5123E2577500D41BDD /* PixieTests.xctest */,
+				646A2F5C23E2577500D41BDD /* PixieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		646A2F3D23E2577100D41BDD /* Pixie */ = {
+			isa = PBXGroup;
+			children = (
+				646A2F3E23E2577100D41BDD /* AppDelegate.swift */,
+				646A2F4023E2577100D41BDD /* SceneDelegate.swift */,
+				646A2F4223E2577100D41BDD /* ContentView.swift */,
+				646A2F4423E2577500D41BDD /* Assets.xcassets */,
+				646A2F4923E2577500D41BDD /* LaunchScreen.storyboard */,
+				646A2F4C23E2577500D41BDD /* Info.plist */,
+				646A2F6E23E2590800D41BDD /* GoogleService-Info.plist */,
+				646A2F4623E2577500D41BDD /* Preview Content */,
+			);
+			path = Pixie;
+			sourceTree = "<group>";
+		};
+		646A2F4623E2577500D41BDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				646A2F4723E2577500D41BDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		646A2F5423E2577500D41BDD /* PixieTests */ = {
+			isa = PBXGroup;
+			children = (
+				646A2F5523E2577500D41BDD /* PixieTests.swift */,
+				646A2F5723E2577500D41BDD /* Info.plist */,
+			);
+			path = PixieTests;
+			sourceTree = "<group>";
+		};
+		646A2F5F23E2577500D41BDD /* PixieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				646A2F6023E2577500D41BDD /* PixieUITests.swift */,
+				646A2F6223E2577500D41BDD /* Info.plist */,
+			);
+			path = PixieUITests;
+			sourceTree = "<group>";
+		};
+		E6D6C0A30A8F293F3D89AFEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0F6A01A9C81A3C4A55C6C9B /* Pods-Pixie.debug.xcconfig */,
+				C7E43AB2EFF87E244D566123 /* Pods-Pixie.release.xcconfig */,
+				B77A7C6611F1F2EC62048007 /* Pods-Pixie-PixieUITests.debug.xcconfig */,
+				31F78099403D381CF06C5344 /* Pods-Pixie-PixieUITests.release.xcconfig */,
+				947BDA156406391075C1AA37 /* Pods-PixieTests.debug.xcconfig */,
+				AA515D6048F0045E8478EA0F /* Pods-PixieTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		646A2F3A23E2577000D41BDD /* Pixie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646A2F6523E2577500D41BDD /* Build configuration list for PBXNativeTarget "Pixie" */;
+			buildPhases = (
+				BFACD2D83897DCD668DBA78E /* [CP] Check Pods Manifest.lock */,
+				646A2F3723E2577000D41BDD /* Sources */,
+				646A2F3823E2577000D41BDD /* Frameworks */,
+				646A2F3923E2577000D41BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixie;
+			productName = Pixie;
+			productReference = 646A2F3B23E2577100D41BDD /* Pixie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		646A2F5023E2577500D41BDD /* PixieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646A2F6823E2577500D41BDD /* Build configuration list for PBXNativeTarget "PixieTests" */;
+			buildPhases = (
+				E09FB351570C65853B3EBFB4 /* [CP] Check Pods Manifest.lock */,
+				646A2F4D23E2577500D41BDD /* Sources */,
+				646A2F4E23E2577500D41BDD /* Frameworks */,
+				646A2F4F23E2577500D41BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646A2F5323E2577500D41BDD /* PBXTargetDependency */,
+			);
+			name = PixieTests;
+			productName = PixieTests;
+			productReference = 646A2F5123E2577500D41BDD /* PixieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		646A2F5B23E2577500D41BDD /* PixieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646A2F6B23E2577500D41BDD /* Build configuration list for PBXNativeTarget "PixieUITests" */;
+			buildPhases = (
+				4189A12BBF18D0524EF77EBF /* [CP] Check Pods Manifest.lock */,
+				646A2F5823E2577500D41BDD /* Sources */,
+				646A2F5923E2577500D41BDD /* Frameworks */,
+				646A2F5A23E2577500D41BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646A2F5E23E2577500D41BDD /* PBXTargetDependency */,
+			);
+			name = PixieUITests;
+			productName = PixieUITests;
+			productReference = 646A2F5C23E2577500D41BDD /* PixieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		646A2F3323E2577000D41BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Derick Park";
+				TargetAttributes = {
+					646A2F3A23E2577000D41BDD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					646A2F5023E2577500D41BDD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 646A2F3A23E2577000D41BDD;
+					};
+					646A2F5B23E2577500D41BDD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 646A2F3A23E2577000D41BDD;
+					};
+				};
+			};
+			buildConfigurationList = 646A2F3623E2577000D41BDD /* Build configuration list for PBXProject "Pixie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 646A2F3223E2577000D41BDD;
+			productRefGroup = 646A2F3C23E2577100D41BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				646A2F3A23E2577000D41BDD /* Pixie */,
+				646A2F5023E2577500D41BDD /* PixieTests */,
+				646A2F5B23E2577500D41BDD /* PixieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		646A2F3923E2577000D41BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A2F4B23E2577500D41BDD /* LaunchScreen.storyboard in Resources */,
+				646A2F6F23E2590800D41BDD /* GoogleService-Info.plist in Resources */,
+				646A2F4823E2577500D41BDD /* Preview Assets.xcassets in Resources */,
+				646A2F4523E2577500D41BDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A2F4F23E2577500D41BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A2F5A23E2577500D41BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4189A12BBF18D0524EF77EBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pixie-PixieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFACD2D83897DCD668DBA78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pixie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09FB351570C65853B3EBFB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		646A2F3723E2577000D41BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A2F3F23E2577100D41BDD /* AppDelegate.swift in Sources */,
+				646A2F4123E2577100D41BDD /* SceneDelegate.swift in Sources */,
+				646A2F4323E2577100D41BDD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A2F4D23E2577500D41BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A2F5623E2577500D41BDD /* PixieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A2F5823E2577500D41BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A2F6123E2577500D41BDD /* PixieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		646A2F5323E2577500D41BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 646A2F3A23E2577000D41BDD /* Pixie */;
+			targetProxy = 646A2F5223E2577500D41BDD /* PBXContainerItemProxy */;
+		};
+		646A2F5E23E2577500D41BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 646A2F3A23E2577000D41BDD /* Pixie */;
+			targetProxy = 646A2F5D23E2577500D41BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		646A2F4923E2577500D41BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646A2F4A23E2577500D41BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		646A2F6323E2577500D41BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		646A2F6423E2577500D41BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		646A2F6623E2577500D41BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F6A01A9C81A3C4A55C6C9B /* Pods-Pixie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pixie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pixie.Pixie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		646A2F6723E2577500D41BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E43AB2EFF87E244D566123 /* Pods-Pixie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pixie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pixie.Pixie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		646A2F6923E2577500D41BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947BDA156406391075C1AA37 /* Pods-PixieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pixie.PixieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixie.app/Pixie";
+			};
+			name = Debug;
+		};
+		646A2F6A23E2577500D41BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA515D6048F0045E8478EA0F /* Pods-PixieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pixie.PixieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixie.app/Pixie";
+			};
+			name = Release;
+		};
+		646A2F6C23E2577500D41BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77A7C6611F1F2EC62048007 /* Pods-Pixie-PixieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pixie.PixieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixie;
+			};
+			name = Debug;
+		};
+		646A2F6D23E2577500D41BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F78099403D381CF06C5344 /* Pods-Pixie-PixieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pixie.PixieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		646A2F3623E2577000D41BDD /* Build configuration list for PBXProject "Pixie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A2F6323E2577500D41BDD /* Debug */,
+				646A2F6423E2577500D41BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646A2F6523E2577500D41BDD /* Build configuration list for PBXNativeTarget "Pixie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A2F6623E2577500D41BDD /* Debug */,
+				646A2F6723E2577500D41BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646A2F6823E2577500D41BDD /* Build configuration list for PBXNativeTarget "PixieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A2F6923E2577500D41BDD /* Debug */,
+				646A2F6A23E2577500D41BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646A2F6B23E2577500D41BDD /* Build configuration list for PBXNativeTarget "PixieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A2F6C23E2577500D41BDD /* Debug */,
+				646A2F6D23E2577500D41BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 646A2F3323E2577000D41BDD /* Project object */;
+}
