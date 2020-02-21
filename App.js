@@ -53,6 +53,7 @@ import UserProfile from './components/UserProfile';
 
 import AllGroupsPage from './components/AllGroupsPage';
 import Chat from './components/Chat';
+import GroupPage from './components/GroupPage';
 
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';

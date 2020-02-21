@@ -8,7 +8,7 @@
     "eject": "expo eject",
     "start:server": "nodemon server",
     "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=19001'",
-    "create:tables": "psql -f Postgres/table.sql"
+    "create:tables": "psql pixie -f Postgres/table.sql"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",
